@@ -1,0 +1,22 @@
+{
+  "server": {
+    "port": 8081,
+    "host": "localhost"
+  },
+  "database": {
+    "type": "postgres",
+    "postgres": {
+      "user": "postgres",
+      "password": "1234",
+      "name": "tskmgr",
+      "host": "localhost",
+      "port": 5432,
+      "sslmode": "disable"
+    },
+    "mongodb": {
+      "uri": "mongodb://localhost:27017",
+      "dbname": "mydatabase" 
+    },
+    "memdb": {}
+  }
+}
